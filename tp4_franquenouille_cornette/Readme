@@ -1,0 +1,30 @@
+FRANQUENOUILLE Kevin
+CORNETTE Damien
+
+=========================================
+Fichiers à rendre :
+   
+Readme
+Makefile
+prodcons.c
+sem.c
+sem.h
+hw.c
+hw.h
+
+=========================================
+				TP4
+
+Pour debug : 
+	$ ulimit -c unlimited
+	$ ./binaire
+	$ gdb binaire core
+
+	$ ddd ./binaire
+
+Dans ce TP, la grande difficulté était de bien comprendre le système de sémaphores et comprendre aussi où bloquer. Cela nous a posé pas mal de problème. Nous avons fini par trouvé. Cela était du au fait que nous n'enregistrions pas le contexte courant et donc de ce fait nous ne savions pas si nous avions déjà bouclé sur tous les processus.
+
+Les cas d'interblocages on bien été detecté.
+
+Le fait de bien débugger est aussi important afin de savoir où l'on boucle.
+Le reste à été suffisament facile.

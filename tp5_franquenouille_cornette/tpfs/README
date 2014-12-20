@@ -1,0 +1,29 @@
+FRANQUENOUILLE Kevin
+CORNETTE Damien
+
+=========================================
+Fichiers à rendre :
+   
+Readme
+Makefile
+drive.c
+drive.h
+dmps
+frmt
+
+=========================================
+				TP4
+
+Pour ce TP, nous vous fournissons le tout afin que vous puissiez compiler sans aucun aucun soucis.
+Les fichiers sources se trouvent dans le dossier tpfs.
+Pour compiler, allez dans le dossier tpfs et faite un make.
+Vous aurez donc les executables "dmps" et "frmt" (déjà présents)
+
+Conseils d'utilisation : 
+	./dmps [numero cylindre] [numero secteur]
+	./frmt [numero cylindre] [numero secteur] [nombre secteurs]
+
+Nous somme conscient que nous vous rendons plus que demandé mais ne savons pas si vous le compilez et testez donc avons pris les devant.
+
+Vous pouvez quand même tester nos executables avant de faire un make. Si vous souhaitez les recompiler faites un make realclean afin d'effacer nos 2 executables.
+Nous vous remercions de votre compréhension.

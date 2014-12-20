@@ -1,0 +1,16 @@
+FRANQUENOUILLE Kevin
+CORNETTE Damien
+
+=========================================
+Fichiers à rendre :
+
+Readme
+Makefile
+switch_to.c
+switch_to.h
+
+=========================================
+				TP2
+
+Pour ce TP, il faut bien comprendre que le switch_to est "l'implémentation" du thread.
+On change bien de contexte à chaque appel de la fonction et on reprend l'exécution une fois fini.

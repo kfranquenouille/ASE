@@ -1,0 +1,18 @@
+#############################################
+
+				TP ASE - MMU
+
+#############################################
+
+Modifications :
+Par rapport au TP9 (MMU version 1), nous avons tout refait correctement car nous nous n'en sortions plus et cela commencait à devenir incompréhensible.
+De ce fait, nous avon tout simplifier pour n'avoir que le strict minimum.
+
+Pour tester :
+	./make
+	./kernel
+
+Nous avons défini des matrices de 10x10. Le résultat est donc instantané. Pour changer cela, il faut modifier le "#define MATRIX_SIZE N" dans le fichier "mi_user.c", où N correspond à un entier.
+
+La grosse difficulté est de vraiment bien comprendre le swap et la gestion de la mémoire. Ceci reste assez complexe et abstrait dans l'ensemble.
+Une fois que le tout est bien assimilé ce n'est pas si compliqué mais juste assez dur à le digérer et bien comprendre (PS : ça a été long pour nous). 

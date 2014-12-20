@@ -1,0 +1,28 @@
+FRANQUENOUILLE Kevin
+CORNETTE Damien
+
+=========================================
+Fichiers à rendre :
+   
+Readme
+Makefile
+mknfs
+dfs
+
+=========================================
+				TP7
+				
+/!\ La commande ./dfs n'est opérationnelle !
+
+Pour ce TP, nous vous fournissons le tout afin que vous puissiez compiler sans aucun aucun soucis.
+Les fichiers sources se trouvent dans le dossier tpfs.
+Pour compiler, allez dans le dossier tpfs et faites un make.
+Pour tester, faites un make puis lancez la commande ./mknfs
+
+Conseils d'utilisation : 
+	./mknfs
+	./dfs
+
+Pour ce TP, nous avons essayé de vous contacter mais nous n'y sommes pas parvenu et donc sommes resté bloqué sur un problème très particulier. Nous n'avons également pas réussi à utiliser les variables d'environnement $HW_CONFIG et $CURRENT_VOLUME. Pour remédier à cela, nous avons fixé la valeur de HW_CONFIG à hardware.ini et CURRENT_VOLUME à 0.
+
+Nous vous remercions de votre compréhension.

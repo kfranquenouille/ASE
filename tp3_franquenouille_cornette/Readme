@@ -1,0 +1,20 @@
+FRANQUENOUILLE Kevin
+CORNETTE Damien
+
+=========================================
+Fichiers à rendre :
+   
+Readme
+Makefile
+switch_to.c
+switch_to.h
+hw.c
+hw.h
+
+=========================================
+				TP3
+
+TP se basant sur les 2 premiers TP donc il faut avoir tester son code afin de pouvoir le réutiliser et être sur qu'il soit fonctionnel à 100%.
+il faut bien comprendre le fonctionement de chaque méthode et son rôle.
+Une fois ceci fait, le reste du TP reste assez simple.
+La seule subtilité qu'on a pu rencontré est le fait qu'on avait laissé les switch_to_ctx dans les fonctions ping et pong.
